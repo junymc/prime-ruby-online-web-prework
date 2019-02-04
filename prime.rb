@@ -2,7 +2,7 @@
 #  number.prime# Add  code here!
 # end
 
-def is_prime?
+def prime?
     prime = true
     for r in 2..Math.sqrt(self).to_i
       if (self % r == 0)
