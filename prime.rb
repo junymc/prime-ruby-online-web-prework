@@ -1,3 +1,3 @@
 def prime?(n)
- # Add  code here!
+ (2..n-1).none?{|divisor| n % divisor}# Add  code here!
 end
